@@ -32,3 +32,12 @@ To reproduce the files used for the July 2025 simulation campaign from DEMPgen, 
       - abconv -p ip6_ep_250x10 Generator_Output/pion/10on250/eic_DEMPgen_10on250_ip6_pi+_100600000_q2_3_10.hepmc3 -o Afterburner_Output/pion/10on250/DEMPgen_10on250_ip6_Pi+_q2_3_10_10x250
       - abconv -p ip6_ep_250x10 Generator_Output/pion/10on250/eic_DEMPgen_10on250_ip6_pi+_250000000_q2_10_20.hepmc3 -o Afterburner_Output/pion/10on250/DEMPgen_10on250_ip6_Pi+_q2_10_20_10x250
       - abconv -p ip6_ep_250x10 Generator_Output/pion/10on250/eic_DEMPgen_10on250_ip6_pi+_586000000_q2_20_35.hepmc3 -o Afterburner_Output/pion/10on250/DEMPgen_10on250_ip6_Pi+_q2_20_35_10x250
+- The files were then renamed to meet the simulation campaign input naming convention. From the directroy these files are stored in
+  - /w/eic-scshelf2104/users/sjdkay/Jul2025_Campaign_Input/Afterburner_Output/pion/10on130
+    - hepmc3ascii2root DEMPgen_10on130_ip6_Pi+_q2_3_10_10x130.hepmc DEMPgen_v1.2.4_DEMP_Pi+_10x130_q2_3to10.hepmc3.tree.root
+    - hepmc3ascii2root DEMPgen_10on130_ip6_Pi+_q2_10_20_10x130.hepmc DEMPgen_v1.2.4_DEMP_Pi+_10x130_q2_10to20.hepmc3.tree.root
+    - hepmc3ascii2root DEMPgen_10on130_ip6_Pi+_q2_20_35_10x130.hepmc DEMPgen_v1.2.4_DEMP_Pi+_10x130_q2_20to35.hepmc3.tree.root
+  - /w/eic-scshelf2104/users/sjdkay/Jul2025_Campaign_Input/Afterburner_Output/pion/10on250
+    - hepmc3ascii2root DEMPgen_10on250_ip6_Pi+_q2_3_10_10x250.hepmc DEMPgen_v1.2.4_DEMP_Pi+_10x250_q2_3to10.hepmc3.tree.root
+    - hepmc3ascii2root DEMPgen_10on250_ip6_Pi+_q2_10_20_10x250.hepmc DEMPgen_v1.2.4_DEMP_Pi+_10x250_q2_10to20.hepmc3.tree.root
+    - hepmc3ascii2root DEMPgen_10on250_ip6_Pi+_q2_20_35_10x250.hepmc DEMPgen_v1.2.4_DEMP_Pi+_10x250_q2_20to35.hepmc3.tree.root
